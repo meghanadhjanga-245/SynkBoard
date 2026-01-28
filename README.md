@@ -1,11 +1,11 @@
-SynkBoard 
+#SynkBoard 
 
 A professional creative whiteboard in the browser
 
 SynkBoard is a modern, feature-rich, web-based drawing and whiteboarding application built with pure HTML, CSS, and Vanilla JavaScript.
 It delivers a smooth, professional creative experience for designers, artists, and engineers directly in the browser — with no frameworks and no backend.
 
-🌟 Why SynkBoard
+#Why SynkBoard
 
 SynkBoard is a portfolio-grade project designed to demonstrate advanced frontend engineering, Canvas mastery, and polished UI/UX design.
 
@@ -15,8 +15,8 @@ Can this developer build complex, interactive tools from scratch using core web 
 
 SynkBoard proves the answer is yes.
 
-✨ Key Features
-🎨 Creative Drawing Tools
+# Key Features
+#Creative Drawing Tools
 
 Natural brush tool with adjustable size
 
@@ -46,7 +46,7 @@ Full undo and redo history system
 
 Subtle grid background for precise design alignment
 
-⚡ Canvas Interaction
+#Canvas Interaction
 
 Smooth drawing with minimal latency
 
@@ -56,7 +56,7 @@ Clean state restoration after resize
 
 High-performance canvas updates
 
-📱 Responsive & Touch Friendly
+ #Responsive & Touch Friendly
 
 Fully responsive layout for desktop and mobile
 
@@ -64,7 +64,7 @@ Complete mouse and touch gesture support
 
 Adaptive toolbar layout for small screens
 
-🧠 Architecture Overview
+# Architecture Overview
 Tech Stack
 
 HTML5 Canvas for high-performance drawing
@@ -85,7 +85,7 @@ Efficient memory usage with controlled history depth
 
 This demonstrates structured state handling without React or external state libraries.
 
-🏗️ Key Engineering Decisions
+#Key Engineering Decisions
 
 Unified mouse and touch event handling for cross-platform input
 
@@ -95,7 +95,7 @@ CSS variable-driven theming system
 
 Minimal re-renders to maintain high FPS
 
-🎨 UI & UX Design
+# UI & UX Design
 
 Clean, modern, professional interface
 
@@ -105,7 +105,7 @@ Large, accessible touch targets
 
 Zero learning curve — intuitive from first use
 
-🚀 Performance & Optimization
+#Performance & Optimization
 
 Hardware-accelerated Canvas rendering
 
@@ -115,7 +115,7 @@ Optimized redraw strategy
 
 Smooth 60 FPS interactions on modern devices
 
-📱 Browser Compatibility
+# Browser Compatibility
 
 Chrome 60+
 
@@ -129,7 +129,7 @@ Mobile Safari (iOS 12+)
 
 Chrome for Android
 
-🛠️ How to Run Locally
+# How to Run Locally
 
 Clone or download the project
 
@@ -139,7 +139,7 @@ Start drawing immediately
 
 No installation or setup required.
 
-📈 Extensibility
+# Extensibility
 
 SynkBoard is structured for future expansion:
 
@@ -155,7 +155,7 @@ PWA support for offline usage
 
 Keyboard shortcuts for professional workflows
 
-🎯 Ideal For
+# Ideal For
 
 Frontend developer portfolios
 
@@ -167,7 +167,7 @@ UI and UX case studies
 
 Interview presentations
 
-🏆 Professional Highlights
+# Professional Highlights
 
 Clean, modular, maintainable codebase
 
@@ -179,11 +179,11 @@ Strong performance optimization
 
 Seamless cross-device experience
 
-📄 License
+# License
 
 This project is intended for educational and portfolio demonstration purposes.
 
-👨‍💻 Developer
+# Developer
 
 Janga Meghanadh
 Frontend Engineer and Creative Technologist
