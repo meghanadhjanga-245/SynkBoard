@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>SynkBoard | Professional Creative Suite</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body data-theme="dark">
+
+<header>
+  <div class="logo">
+    <div class="logo-icon"></div>
+    <span>SynkBoard</span>
+  </div>
+  <div class="header-actions">
+    <button class="btn-action" id="themeToggle">
+      <span id="themeIcon">🌙</span>
+      <span id="themeText">Dark</span>
+    </button>
+    <button class="btn-action danger" id="clearBoard">Clear</button>
+  </div>
+</header>
+
+<main>
+  <aside class="toolbar">
+    <button class="tool-btn active" data-tool="pen">🖌️</button>
+    <button class="tool-btn" data-tool="eraser">🧽</button>
+    <button class="tool-btn" data-tool="line">／</button>
+    <button class="tool-btn" data-tool="rectangle">▭</button>
+    <button class="tool-btn" data-tool="circle">◯</button>
+    <button class="tool-btn" data-tool="triangle">△</button>
+    <button class="tool-btn" data-tool="text">T</button>
+    <div class="divider"></div>
+    <button class="tool-btn" id="undo">↺</button>
+    <button class="tool-btn" id="redo">↻</button>
+  </aside>
+
+  <div class="canvas-container">
+    <canvas id="board"></canvas>
+    <input id="textInputOverlay" type="text" placeholder="Type text...">
+
+    <div class="controls-bottom">
+      <div class="color-swatch active" data-color="#ffffff" style="background:#fff"></div>
+      <div class="color-swatch" data-color="#6366f1" style="background:#6366f1"></div>
+      <div class="color-swatch" data-color="#10b981" style="background:#10b981"></div>
+      <div class="color-swatch" data-color="#f43f5e" style="background:#f43f5e"></div>
+      <div class="divider vertical"></div>
+      <input type="range" id="sizeSlider" min="2" max="25" value="5">
+    </div>
+  </div>
+</main>
+
+<script src="script.js" defer></script>
+</body>
+</html>
